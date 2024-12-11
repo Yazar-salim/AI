@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Urbanist", sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+.body{
+    background-color: #01020f;
+    
+}
+
+.navbar li{
+    border-radius: 20px;
+}
+
+.navbar li:hover{
+    background-color: rgb(34, 32, 32);
+}
+
+.navbar button{
+    color: antiquewhite;
+}
+
+.navbar button:hover{
+    color: black;
+    /* box-shadow: 1px 1px 5px white; */
+}
+
+.hero{
+    background-image: url("../images/home-bg.png");
+    background-size: cover;
+    height: 100vh;
+}
+
+.hero-heading{
+    font-size: 40px;
+    color: aliceblue;
+    font-weight: 600;
+    background-image: linear-gradient(to bottom right,#4E4BE4,#E862FE);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+.text-pink{
+    color: #FF3BFF;
+    font-size: medium;
+}
+
+.per-heading{
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    background-image: linear-gradient(to right,#4E4BE4,#E862FE);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.image{
+    width: 60px;
+    height: 70px;
+}
+
+.modes-heading{
+    font-size: 40px;
+    font-weight: 700;
+    background-image: linear-gradient(to right,#4E4BE4,#E862FE);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.span{
+    font-size: 40px;
+    font-weight: 700;
+    background-image: linear-gradient(to right,#4E4BE4,#E862FE);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
